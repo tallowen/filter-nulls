@@ -2,8 +2,9 @@
   "name": "ts-filter-nulls",
   "version": "1.0.0",
   "description": "Avoid having to sprinkle this typegaurd in every typscript codebase",
-  "main": "src/index.js",
-  "scripts": {
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+    "scripts": {
     "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
